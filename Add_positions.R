@@ -1,6 +1,4 @@
-# Anyone who uses @nflfastR may find this useful: I built a comprehensive list of player positions for the 2011-2019 seasons. 
-
-## load libraries
+## Load libraries
 library(tidyverse)
 library(dplyr)
 library(nflfastR)
