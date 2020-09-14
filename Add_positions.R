@@ -4,7 +4,7 @@ library(dplyr)
 library(nflfastR)
 
 ## Upload roster file
-nfl_positions <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL_rosters/master/nfl_positions_2011_2019.csv"))
+nfl_positions <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL_rosters/master/nfl_positions_2011_2020.csv"))
 
 ## Upload play-by-play data for seasons 2011-2019 (from Ben Baldwin nflfastR Beginner's Guide)
 seasons <- 2011:2019
